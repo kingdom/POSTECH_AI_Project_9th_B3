@@ -1,33 +1,567 @@
- GPU isn't used 
-mini_batch = 1, batch = 8, time_steps = 1, train = 0 
+ CUDNN_HALF=1 
+net.optimized_memory = 0 
+mini_batch = 1, batch = 32, time_steps = 1, train = 0 
 nms_kind: greedynms (1), beta = 0.600000 
 nms_kind: greedynms (1), beta = 0.600000 
 nms_kind: greedynms (1), beta = 0.600000 
 
- seen 64, trained: 32032 K-images (500 Kilo-batches_64) 
-folder input=./sample_imgs/ and output=./output/
-Start processing ./sample_imgs/2.jpg
-./sample_imgs/2.jpg: Predicted in 40946.620000 milli-seconds.
-person: 66.568283%	left_x:   79	top_y: 1324	width:   29	height:   73
-person: 97.305855%	left_x:  128	top_y: 1327	width:   30	height:   89
-person: 31.458553%	left_x:  159	top_y: 1320	width:   27	height:   77
-person: 69.110802%	left_x:  179	top_y: 1332	width:   26	height:   72
-person: 66.265312%	left_x:  520	top_y: 1374	width:   40	height:   79
-person: 41.056721%	left_x:  521	top_y: 1355	width:   34	height:   41
-person: 45.226376%	left_x:  565	top_y: 1367	width:   36	height:   84
-boat: 34.057201%	left_x: 1547	top_y: 1126	width:  298	height:  149
+ seen 64, trained: 128 K-images (2 Kilo-batches_64) 
+folder input=4windows_input/ and output=output/
+Start processing 4windows_input/20200602011241_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011241_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 16.850000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
 End
-Start processing ./sample_imgs/1.jpg
-./sample_imgs/1.jpg: Predicted in 39889.559000 milli-seconds.
-sofa: 98.257271%	left_x:    1	top_y:  225	width:  291	height:  133
-pottedplant: 65.972534%	left_x:  233	top_y:  111	width:  107	height:  171
-book: 40.085949%	left_x:  242	top_y:  282	width:   57	height:   15
-bowl: 85.421028%	left_x:  261	top_y:  271	width:   25	height:   15
-book: 77.819801%	left_x:  291	top_y:  276	width:   53	height:   14
-book: 38.143242%	left_x:  292	top_y:  284	width:   54	height:   11
-book: 25.754240%	left_x:  306	top_y:  268	width:   21	height:   12
-chair: 97.120567%	left_x:  347	top_y:  234	width:  234	height:  190
-vase: 30.772226%	left_x:  457	top_y:  119	width:   17	height:   36
-vase: 29.503319%	left_x:  475	top_y:  138	width:   10	height:   15
-chair: 46.167088%	left_x:  558	top_y:  229	width:   53	height:  136
+Start processing 4windows_input/20200602010946_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010946_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 16.844000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011245_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011245_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 16.840000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010958_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010958_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 16.842000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010937_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010937_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 16.833000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010928_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010928_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 16.839000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010936_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010936_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 16.850000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011000_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011000_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 16.831000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010953_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010953_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.541000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010957_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010957_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.535000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010955_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010955_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.533000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011219_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011219_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.506000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010929_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010929_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.515000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011010_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011010_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.497000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010921_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010921_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.481000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010918_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010918_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.528000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011015_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011015_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.458000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010947_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010947_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.470000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011002_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011002_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.449000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010922_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010922_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.469000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011009_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011009_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.462000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011012_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011012_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.467000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011019_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011019_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.455000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010925_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010925_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.480000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011227_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011227_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.487000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011020_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011020_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.468000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011220_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011220_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.453000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010906_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010906_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.445000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010930_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010930_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.456000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010939_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010939_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.454000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011247_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011247_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.455000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011239_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011239_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.441000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010941_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010941_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.456000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011233_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011233_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.456000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011001_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011001_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.443000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011022_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011022_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.455000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010932_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010932_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.441000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011013_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011013_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.436000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010926_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010926_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.441000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010911_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010911_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.471000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010935_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010935_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.456000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010924_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010924_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.445000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011236_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011236_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.448000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011223_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011223_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.472000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011248_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011248_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.439000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010942_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010942_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.446000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010938_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010938_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.464000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011003_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011003_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.458000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010907_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010907_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.468000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010948_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010948_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.446000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011023_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011023_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.449000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011240_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011240_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.442000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010917_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010917_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.460000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011021_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011021_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.453000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010915_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010915_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.454000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011029_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011029_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.434000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011244_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011244_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.441000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011246_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011246_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.453000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011017_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011017_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.462000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011230_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011230_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.441000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011237_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011237_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.447000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010934_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010934_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.443000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011024_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011024_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.458000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/.ipynb_checkpoints
+4windows_input/.ipynb_checkpoints: Predicted in 14.375000 milli-seconds.
+End
+Start processing 4windows_input/20200602010919_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010919_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.451000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011221_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011221_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.431000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011016_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011016_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.455000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011018_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011018_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.441000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010923_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010923_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.451000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010952_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010952_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.484000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011243_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011243_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.430000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011235_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011235_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.453000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010956_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010956_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.441000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010950_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010950_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.443000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011011_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011011_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.456000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011005_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011005_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.471000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011228_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011228_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.440000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011014_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011014_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.450000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010927_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010927_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.468000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011004_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011004_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.445000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010914_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010914_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.451000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011226_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011226_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.461000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011224_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011224_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.454000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011027_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011027_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.416000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011007_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011007_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.451000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010949_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010949_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.457000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011242_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011242_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.457000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010846_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010846_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.434000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010951_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010951_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.440000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010916_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010916_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.451000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010908_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010908_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.443000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011234_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011234_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.465000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010912_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010912_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.466000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010944_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010944_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.456000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010931_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010931_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.449000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011232_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011232_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.457000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011008_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011008_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.450000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010933_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010933_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.442000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010940_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010940_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.450000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011025_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011025_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.461000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011249_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011249_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.463000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011026_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011026_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.430000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010913_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010913_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.452000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011225_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011225_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.496000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010909_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010909_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.434000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011222_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011222_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.449000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010945_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010945_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.464000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602011231_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011231_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.450000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010954_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010954_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.470000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602010959_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010959_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.448000 milli-seconds.
+lay_down: 72.670006%	left_x:   24	top_y:   -2	width:  148	height:  193
+lay_down: 91.053757%	left_x:  208	top_y:   -3	width:  148	height:  203
+End
+Start processing 4windows_input/20200602010910_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602010910_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.475000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
+End
+Start processing 4windows_input/20200602011238_새가잇는곳_군대_포스코_경찰서.jpg
+4windows_input/20200602011238_새가잇는곳_군대_포스코_경찰서.jpg: Predicted in 14.463000 milli-seconds.
+lay_down: 72.583946%	left_x:   24	top_y:   -3	width:  148	height:  194
+lay_down: 89.039162%	left_x:  209	top_y:  191	width:  149	height:  217
 End

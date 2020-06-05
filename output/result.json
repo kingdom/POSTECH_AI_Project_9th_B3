@@ -1,33 +1,897 @@
 [
 {
  "frame_id":1, 
- "filename":"./sample_imgs/2.jpg", 
+ "filename":"4windows_input/20200602011241_새가잇는곳_군대_포스코_경찰서.jpg", 
  "objects": [ 
-  {"class_id":8, "name":"boat", "relative_coordinates":{"left_x":1547, "top_y":1126, "width": 298, "height": 149}, "confidence":0.340572}, 
-  {"class_id":0, "name":"person", "relative_coordinates":{"left_x": 128, "top_y":1327, "width":  30, "height":  89}, "confidence":0.973059}, 
-  {"class_id":0, "name":"person", "relative_coordinates":{"left_x": 179, "top_y":1332, "width":  26, "height":  72}, "confidence":0.691108}, 
-  {"class_id":0, "name":"person", "relative_coordinates":{"left_x":  79, "top_y":1324, "width":  29, "height":  73}, "confidence":0.665683}, 
-  {"class_id":0, "name":"person", "relative_coordinates":{"left_x": 520, "top_y":1374, "width":  40, "height":  79}, "confidence":0.662653}, 
-  {"class_id":0, "name":"person", "relative_coordinates":{"left_x": 565, "top_y":1367, "width":  36, "height":  84}, "confidence":0.452264}, 
-  {"class_id":0, "name":"person", "relative_coordinates":{"left_x": 521, "top_y":1355, "width":  34, "height":  41}, "confidence":0.410567}, 
-  {"class_id":0, "name":"person", "relative_coordinates":{"left_x": 159, "top_y":1320, "width":  27, "height":  77}, "confidence":0.314586}
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
  ] 
 }, 
 {
  "frame_id":2, 
- "filename":"./sample_imgs/1.jpg", 
+ "filename":"4windows_input/20200602010946_새가잇는곳_군대_포스코_경찰서.jpg", 
  "objects": [ 
-  {"class_id":75, "name":"vase", "relative_coordinates":{"left_x": 457, "top_y": 119, "width":  17, "height":  36}, "confidence":0.307722}, 
-  {"class_id":75, "name":"vase", "relative_coordinates":{"left_x": 475, "top_y": 138, "width":  10, "height":  15}, "confidence":0.295033}, 
-  {"class_id":73, "name":"book", "relative_coordinates":{"left_x": 291, "top_y": 276, "width":  53, "height":  14}, "confidence":0.778198}, 
-  {"class_id":73, "name":"book", "relative_coordinates":{"left_x": 242, "top_y": 282, "width":  57, "height":  15}, "confidence":0.400859}, 
-  {"class_id":73, "name":"book", "relative_coordinates":{"left_x": 292, "top_y": 284, "width":  54, "height":  11}, "confidence":0.381432}, 
-  {"class_id":73, "name":"book", "relative_coordinates":{"left_x": 306, "top_y": 268, "width":  21, "height":  12}, "confidence":0.257542}, 
-  {"class_id":58, "name":"pottedplant", "relative_coordinates":{"left_x": 233, "top_y": 111, "width": 107, "height": 171}, "confidence":0.659725}, 
-  {"class_id":57, "name":"sofa", "relative_coordinates":{"left_x":   1, "top_y": 225, "width": 291, "height": 133}, "confidence":0.982573}, 
-  {"class_id":56, "name":"chair", "relative_coordinates":{"left_x": 347, "top_y": 234, "width": 234, "height": 190}, "confidence":0.971206}, 
-  {"class_id":56, "name":"chair", "relative_coordinates":{"left_x": 558, "top_y": 229, "width":  53, "height": 136}, "confidence":0.461671}, 
-  {"class_id":45, "name":"bowl", "relative_coordinates":{"left_x": 261, "top_y": 271, "width":  25, "height":  15}, "confidence":0.854210}
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":3, 
+ "filename":"4windows_input/20200602011245_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":4, 
+ "filename":"4windows_input/20200602010958_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":5, 
+ "filename":"4windows_input/20200602010937_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":6, 
+ "filename":"4windows_input/20200602010928_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":7, 
+ "filename":"4windows_input/20200602010936_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":8, 
+ "filename":"4windows_input/20200602011000_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":9, 
+ "filename":"4windows_input/20200602010953_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":10, 
+ "filename":"4windows_input/20200602010957_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":11, 
+ "filename":"4windows_input/20200602010955_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":12, 
+ "filename":"4windows_input/20200602011219_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":13, 
+ "filename":"4windows_input/20200602010929_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":14, 
+ "filename":"4windows_input/20200602011010_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":15, 
+ "filename":"4windows_input/20200602010921_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":16, 
+ "filename":"4windows_input/20200602010918_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":17, 
+ "filename":"4windows_input/20200602011015_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":18, 
+ "filename":"4windows_input/20200602010947_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":19, 
+ "filename":"4windows_input/20200602011002_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":20, 
+ "filename":"4windows_input/20200602010922_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":21, 
+ "filename":"4windows_input/20200602011009_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":22, 
+ "filename":"4windows_input/20200602011012_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":23, 
+ "filename":"4windows_input/20200602011019_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":24, 
+ "filename":"4windows_input/20200602010925_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":25, 
+ "filename":"4windows_input/20200602011227_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":26, 
+ "filename":"4windows_input/20200602011020_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":27, 
+ "filename":"4windows_input/20200602011220_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":28, 
+ "filename":"4windows_input/20200602010906_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":29, 
+ "filename":"4windows_input/20200602010930_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":30, 
+ "filename":"4windows_input/20200602010939_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":31, 
+ "filename":"4windows_input/20200602011247_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":32, 
+ "filename":"4windows_input/20200602011239_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":33, 
+ "filename":"4windows_input/20200602010941_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":34, 
+ "filename":"4windows_input/20200602011233_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":35, 
+ "filename":"4windows_input/20200602011001_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":36, 
+ "filename":"4windows_input/20200602011022_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":37, 
+ "filename":"4windows_input/20200602010932_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":38, 
+ "filename":"4windows_input/20200602011013_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":39, 
+ "filename":"4windows_input/20200602010926_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":40, 
+ "filename":"4windows_input/20200602010911_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":41, 
+ "filename":"4windows_input/20200602010935_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":42, 
+ "filename":"4windows_input/20200602010924_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":43, 
+ "filename":"4windows_input/20200602011236_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":44, 
+ "filename":"4windows_input/20200602011223_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":45, 
+ "filename":"4windows_input/20200602011248_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":46, 
+ "filename":"4windows_input/20200602010942_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":47, 
+ "filename":"4windows_input/20200602010938_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":48, 
+ "filename":"4windows_input/20200602011003_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":49, 
+ "filename":"4windows_input/20200602010907_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":50, 
+ "filename":"4windows_input/20200602010948_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":51, 
+ "filename":"4windows_input/20200602011023_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":52, 
+ "filename":"4windows_input/20200602011240_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":53, 
+ "filename":"4windows_input/20200602010917_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":54, 
+ "filename":"4windows_input/20200602011021_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":55, 
+ "filename":"4windows_input/20200602010915_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":56, 
+ "filename":"4windows_input/20200602011029_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":57, 
+ "filename":"4windows_input/20200602011244_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":58, 
+ "filename":"4windows_input/20200602011246_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":59, 
+ "filename":"4windows_input/20200602011017_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":60, 
+ "filename":"4windows_input/20200602011230_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":61, 
+ "filename":"4windows_input/20200602011237_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":62, 
+ "filename":"4windows_input/20200602010934_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":63, 
+ "filename":"4windows_input/20200602011024_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":64, 
+ "filename":"4windows_input/.ipynb_checkpoints", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":65, 
+ "filename":"4windows_input/20200602010919_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":66, 
+ "filename":"4windows_input/20200602011221_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":67, 
+ "filename":"4windows_input/20200602011016_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":68, 
+ "filename":"4windows_input/20200602011018_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":69, 
+ "filename":"4windows_input/20200602010923_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":70, 
+ "filename":"4windows_input/20200602010952_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":71, 
+ "filename":"4windows_input/20200602011243_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":72, 
+ "filename":"4windows_input/20200602011235_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":73, 
+ "filename":"4windows_input/20200602010956_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":74, 
+ "filename":"4windows_input/20200602010950_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":75, 
+ "filename":"4windows_input/20200602011011_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":76, 
+ "filename":"4windows_input/20200602011005_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":77, 
+ "filename":"4windows_input/20200602011228_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":78, 
+ "filename":"4windows_input/20200602011014_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":79, 
+ "filename":"4windows_input/20200602010927_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":80, 
+ "filename":"4windows_input/20200602011004_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":81, 
+ "filename":"4windows_input/20200602010914_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":82, 
+ "filename":"4windows_input/20200602011226_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":83, 
+ "filename":"4windows_input/20200602011224_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":84, 
+ "filename":"4windows_input/20200602011027_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":85, 
+ "filename":"4windows_input/20200602011007_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":86, 
+ "filename":"4windows_input/20200602010949_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":87, 
+ "filename":"4windows_input/20200602011242_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":88, 
+ "filename":"4windows_input/20200602010846_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":89, 
+ "filename":"4windows_input/20200602010951_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":90, 
+ "filename":"4windows_input/20200602010916_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":91, 
+ "filename":"4windows_input/20200602010908_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":92, 
+ "filename":"4windows_input/20200602011234_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":93, 
+ "filename":"4windows_input/20200602010912_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":94, 
+ "filename":"4windows_input/20200602010944_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":95, 
+ "filename":"4windows_input/20200602010931_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":96, 
+ "filename":"4windows_input/20200602011232_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":97, 
+ "filename":"4windows_input/20200602011008_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":98, 
+ "filename":"4windows_input/20200602010933_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":99, 
+ "filename":"4windows_input/20200602010940_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":100, 
+ "filename":"4windows_input/20200602011025_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":101, 
+ "filename":"4windows_input/20200602011249_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":102, 
+ "filename":"4windows_input/20200602011026_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":103, 
+ "filename":"4windows_input/20200602010913_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":104, 
+ "filename":"4windows_input/20200602011225_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":105, 
+ "filename":"4windows_input/20200602010909_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":106, 
+ "filename":"4windows_input/20200602011222_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":107, 
+ "filename":"4windows_input/20200602010945_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":108, 
+ "filename":"4windows_input/20200602011231_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":109, 
+ "filename":"4windows_input/20200602010954_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":110, 
+ "filename":"4windows_input/20200602010959_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 208, "top_y":  -3, "width": 148, "height": 203}, "confidence":0.910538}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -2, "width": 148, "height": 193}, "confidence":0.726700}
+ ] 
+}, 
+{
+ "frame_id":111, 
+ "filename":"4windows_input/20200602010910_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
+ ] 
+}, 
+{
+ "frame_id":112, 
+ "filename":"4windows_input/20200602011238_새가잇는곳_군대_포스코_경찰서.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x": 209, "top_y": 191, "width": 149, "height": 217}, "confidence":0.890392}, 
+  {"class_id":0, "name":"lay_down", "relative_coordinates":{"left_x":  24, "top_y":  -3, "width": 148, "height": 194}, "confidence":0.725839}
  ] 
 }
 ]
