@@ -76,11 +76,3 @@ vincent.gong7[at]gmail.com
 
 <!-- <img src="https://github.com/vincentgong7/VG_AlexeyAB_darknet/blob/master/exp/example/icon_link.png?raw=true" alt="" width="15" valign = "middle"/> [Gong.im](http://gong.im) -->
 
-[*Gong.im*](http://gong.im)
-
-[Guestbook](https://github.com/vincentgong7/VG_AlexeyAB_darknet/issues/7)
-
-<script type="text/javascript" src="//counter.websiteout.net/js/5/4/69/0"></script>
-<br>
-<div style="float: left;"><script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=600&t=m&d=hUfpL0e-tBg_zcx45xNWS0tq1zo_Jj5POALETOYreCY&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script></div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
